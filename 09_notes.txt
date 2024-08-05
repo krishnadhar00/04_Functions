@@ -1,0 +1,15 @@
+1. Functions are chunks of code which perform some specific operations.
+2. We are using the function for reusability and less line of code.
+3. Also function works on the DRY Principle (Don't Repeat Yourself).
+4. Also by using the function it is easy to understand the code.
+5. We can declare the function of the same name but their paramter's data type must be different or parameter must  be diiferent. It doesn't depend upon the return type of function.
+6. Always declare or write the function before the main function. or if we ahve to write the function after the main function the  we have declare the prototype of function.
+7. Scope of variable - locala nd global
+8. local variable: Which are defined locally or inside the function or block.
+9. Global variable: whcih are defined globally or outside the function or outside of the block.
+10. Local variable have more privilege or priority than global lets say we have declare the varible outside and the same name of variable we ahve declare inside the function and now we are calling that variable then local variable will be called because of high priority but outside that function if we are calling thatvariable then it gives the output as globally.
+11. Now if u want to access the global variable's value inside that function then we have to use the scope resolution operator. eg : cout<<::p  and p is declared globallly as well as locally.
+
+12. Pass by value : in this parameter values are copied to another varibles simply copied are created.
+13. Pass by Reference : In this paramters values are actually passed not copied are created. Variable itself is passed using the ampersand operator.
+ 
